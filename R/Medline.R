@@ -108,11 +108,14 @@ GetMeshMajor <- function(object){
 }
 
 
+#add journal function 
+	
 setClass("Medline",
 	representation(
 			Query = "character",
 			PMID = "character",
-	
+			
+			Journal = "character", 
 			YearReceived = "numeric",
             MonthReceived = "numeric",
             DayReceived= "numeric",
